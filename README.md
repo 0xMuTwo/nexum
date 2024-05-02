@@ -1,7 +1,7 @@
 ## TODO List
 
-- [ ] Homepage
-  - [ ] Change all blue colors to purple
+- [x] Homepage
+  - [x] Change all blue colors to purple
 - [ ] Headlines & CTA
 
   - [ ] Large Text: Chat with your (Data Rooms- purple color). Process large volumes of uncentralized data in seconds.
