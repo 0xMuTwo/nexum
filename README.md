@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## TODO List
+
+- [ ] Homepage
+  - [ ] Change all blue colors to purple
+- [ ] Headlines & CTA
+
+  - [ ] Large Text: Chat with your (Data Rooms- purple color). Process large volumes of uncentralized data in seconds.
+  - [ ] Small Text: Nexum's data rooms allow you to upload, collaborate, and query PDFs and media
+  - [ ] Button 1: Change get started button to purple
+  - [ ] Image: Some VC due diligence document (replace professor document)
+  - [ ] "Start Chatting in Minutes" -> Gain cross-document Insights in Minutes
+  - [ ] Subtext -> information to action has never been easier
+
+  - [ ] Step 1, Fine
+  - [ ] Step 2, Connect your dataroom files
+  - [ ] Step 3, Gain insights from your portfolio data in seconds
+  - [ ] Image: Replace with a VC Document
+
+- [ ] Pricing Page
+
+  - [ ] Change all blue to purple
+  - [ ] Left Pricing Widget:
+
+    - [ ] Headline: Angels
+    - [ ] Sub: individual angel and syndicate investors
+    - [ ] $40 per month
+    - [ ] 10 pages per PDF
+    - [ ] 10 mb file size limit
+
+  - [ ] Right Pricing Widget:
+    - [ ] Headline: Funds & Family
+    - [ ] Sub: FOr VC Funds and Family Offices
+    - [ ] $100 per month
+    - [ ] 30mb file limit
+
+## Production
+
+The latest production version of this application is hosted on:
+https://nexum-one.vercel.app
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
