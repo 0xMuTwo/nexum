@@ -16,22 +16,22 @@
   - [x] Step 3, Gain insights from your portfolio data in seconds
   - [ ] Image: Replace with a VC Document
 
-- [ ] Pricing Page
+- [x] Pricing Page
 
-  - [ ] Change all blue to purple
-  - [ ] Left Pricing Widget:
+  - [x] Change all blue to purple
+  - [x] Left Pricing Widget:
 
-    - [ ] Headline: Angels
-    - [ ] Sub: individual angel and syndicate investors
-    - [ ] $40 per month
-    - [ ] 10 pages per PDF
-    - [ ] 10 mb file size limit
+    - [x] Headline: Angels
+    - [x] Sub: individual angel and syndicate investors
+    - [x] $40 per month
+    - [x] 10 pages per PDF
+    - [x] 10 mb file size limit
 
-  - [ ] Right Pricing Widget:
-    - [ ] Headline: Funds & Family
-    - [ ] Sub: FOr VC Funds and Family Offices
-    - [ ] $100 per month
-    - [ ] 30mb file limit
+  - [x] Right Pricing Widget:
+    - [x] Headline: Funds & Family
+    - [x] Sub: For VC Funds and Family Offices
+    - [x] $100 per month
+    - [x] 32mb file limit
 
 ## Getting Started
 

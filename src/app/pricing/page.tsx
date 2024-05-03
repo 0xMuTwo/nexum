@@ -17,16 +17,17 @@ const Page = () => {
   const user = getUser();
   const pricingItems = [
     {
-      plan: "Free",
-      tagline: "For small side projects.",
+      plan: "Angels",
+      tagline: "Individual angels and syndicate investors",
       quota: 10,
+      price: 40,
       features: [
         {
-          text: "5 pages per PDF",
+          text: "10 pages per PDF",
           footnote: "The maximum amount of pages per PDF-file.",
         },
         {
-          text: "4MB file size limit",
+          text: "10MB file size limit",
           footnote: "The maximum file size of a single PDF file.",
         },
         {
@@ -44,8 +45,9 @@ const Page = () => {
       ],
     },
     {
-      plan: "Pro",
-      tagline: "For larger projects with higher needs.",
+      plan: "Friends & Family",
+      tagline: "For VC Funds and Family Offices.",
+      price: 100,
       quota: PLANS.find((p) => p.slug === "pro")!.quota,
       features: [
         {
@@ -53,7 +55,7 @@ const Page = () => {
           footnote: "The maximum amount of pages per PDF-file.",
         },
         {
-          text: "16MB file size limit",
+          text: "32MB file size limit",
           footnote: "The maximum file size of a single PDF file.",
         },
         {
@@ -81,19 +83,20 @@ const Page = () => {
         </div>
         <div className="pt-12 grid grid-cols-1 gap-10 lg:grid-cols-2">
           <TooltipProvider>
-            {pricingItems.map(({ plan, tagline, quota, features }) => {
-              const price =
+            {pricingItems.map(({ plan, tagline, quota, features, price }) => {
+              const price_old =
                 PLANS.find((p) => p.slug === plan.toLowerCase())?.price
                   .amount || 0;
               return (
                 <div
                   key={plan}
                   className={cn("relative rounded-2xl bg-white shadow-lg", {
-                    "border-2 border-blue-600 shadow-blue-200": plan === "Pro",
-                    "border border-gray-200": plan !== "Pro",
+                    "border-2 border-blue-600 shadow-blue-200":
+                      plan === "Friends & Family",
+                    "border border-gray-200": plan !== "Friends & Family",
                   })}
                 >
-                  {plan === "Pro" && (
+                  {plan === "Friends & Family" && (
                     <div className="absolute -top-5 left-0 right-0 mx-auto w-32 rounded-full bg-gradient-to-r from-blue-600 to-cyan-600 px-3 py-2 text-sm font-medium text-white">
                       Upgrade now
                     </div>
