@@ -14,12 +14,13 @@ export default function Home() {
           </p>
         </div>
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          Chat with your <span className="text-purple-600">documents</span> in
+          Chat with your <span className="text-purple-600">Data Rooms</span> in
           seconds.
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
-          Nexum allows you to have conversations with any PDF document. Simply
-          upload your file and start asking questions right away.
+          Nexum&apos;s data rooms allow you to upload, collaborate, and query
+          PDFs and media. Allowing you to process large volumes of uncentralized
+          data in record time.
         </p>
         <Link
           className={buttonVariants({ size: "lg", className: "mt-5" })}
@@ -81,10 +82,10 @@ export default function Home() {
         <div className="mb-12 px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="mt-2 font-bold text-4xl text-gray-9000 sm:text-5xl">
-              Start chatting in minutes
+              Gain cross-document Insights in Minutes
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Chatting to your PDF files has never been easier than with Nexum.
+              Information to action has never been easier
             </p>
           </div>
         </div>
@@ -116,7 +117,7 @@ export default function Home() {
                 Step 2
               </span>
               <span className="text-xl font-semibold">
-                Upload your PDF file
+                Connect your Data Room files.
               </span>
               <span className="mt-2 text-zinc-700">
                 We&apos;ll process your file and make it ready for you to chat
@@ -130,7 +131,7 @@ export default function Home() {
                 Step 3
               </span>
               <span className="text-xl font-semibold">
-                Start asking questions
+                Gain insights from your portfolio data in seconds
               </span>
               <span className="mt-2 text-zinc-700">
                 It&apos;s that simple. Try out Nexum today - it really takes

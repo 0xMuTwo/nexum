@@ -4,16 +4,16 @@
   - [x] Change all blue colors to purple
 - [ ] Headlines & CTA
 
-  - [ ] Large Text: Chat with your (Data Rooms- purple color). Process large volumes of uncentralized data in seconds.
-  - [ ] Small Text: Nexum's data rooms allow you to upload, collaborate, and query PDFs and media
-  - [ ] Button 1: Change get started button to purple
+  - [x] Large Text: Chat with your (Data Rooms- purple color). Process large volumes of uncentralized data in seconds.
+  - [x] Small Text: Nexum's data rooms allow you to upload, collaborate, and query PDFs and media
+  - [x] Button 1: Change get started button to purple
   - [ ] Image: Some VC due diligence document (replace professor document)
-  - [ ] "Start Chatting in Minutes" -> Gain cross-document Insights in Minutes
-  - [ ] Subtext -> information to action has never been easier
+  - [x] "Start Chatting in Minutes" -> Gain cross-document Insights in Minutes
+  - [x] Subtext -> information to action has never been easier
 
-  - [ ] Step 1, Fine
-  - [ ] Step 2, Connect your dataroom files
-  - [ ] Step 3, Gain insights from your portfolio data in seconds
+  - [x] Step 1, Fine
+  - [x] Step 2, Connect your dataroom files
+  - [x] Step 3, Gain insights from your portfolio data in seconds
   - [ ] Image: Replace with a VC Document
 
 - [ ] Pricing Page
